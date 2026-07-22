@@ -1,7 +1,11 @@
 -- Write your PostgreSQL query statement below
 -- Write your PostgreSQL query statement below
-select v.customer_id, COUNT(v.visit_id) as "count_no_trans"
-from visits v
-left join transactions t on v.visit_id = t.visit_id
-where t.visit_id is null
-group by v.customer_id;
+with new_table as (
+select visit_id,customer_id from Visits where visit_id not in (
+    select visit_id from Transactions
+)
+)
+
+select customer_id, count(*) as count_no_trans
+from new_table
+group by customer_id
