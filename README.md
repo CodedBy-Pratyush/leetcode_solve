@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1068-product-sales-analysis-i](https://github.com/CodedBy-Pratyush/leetcode_solve/tree/main/1068-product-sales-analysis-i/) | Easy |
 | [1148-article-views-i](https://github.com/CodedBy-Pratyush/SQL/tree/master/1148-article-views-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/CodedBy-Pratyush/leetcode_solve/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
+| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/CodedBy-Pratyush/leetcode_solve/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 | [1683-invalid-tweets](https://github.com/CodedBy-Pratyush/leetcode_solve/tree/main/1683-invalid-tweets/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/CodedBy-Pratyush/SQL/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
